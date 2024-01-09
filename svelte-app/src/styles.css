@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E1341E;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #E1341E;
+    padding: 65px; /* Increased padding */
+    border-radius: 20px; /* Larger border radius */
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.6); /* More prominent shadow */
+    text-align: center;
+    width: 100%; 
+    max-width: 750px; /* Maximum width limit */
+}
+
+.input-field {
+    width: calc(100% - 24px); /* Full width with padding considered */
+    padding: 20px; /* Larger padding for bigger text */
+    margin: 10px 0 20px; /* Adjusted margins */
+    display: inline-block;
+    border: 2px solid #1ECBE1; /* Your color for border */
+    border-radius: 8px; /* Slightly rounded borders */
+    box-sizing: border-box;
+    font-size: 20px; /* Larger font size */
+    background-color: #E1341E; /* Light background color */
+    color: #333; /* Text color */
+}
+
+.result-text {
+    color: #961EE1; /* Your color for result text */
+    font-size: 22px; /* Larger font size */
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #E1341E; /* Your color for button */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #6AE11E; /* Color change on hover - your green color */
+}
+
+
